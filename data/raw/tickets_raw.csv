@@ -1,0 +1,124 @@
+ticket_id,title,created_at,closed_at,category,priority,status,department,technician
+26,Connected but no internet,2026-08-17 16:45:00,2026-08-18 02:45:00,Network,High,Closed,Sales,Technician C
+98,Email client not opening,2026-09-15 12:13:00,2026-09-15 13:13:00,Software,Medium,Closed,Operations,Technician C
+90,Computer very slow,2026-09-11 13:22:00,2026-09-11 21:22:00,Hardware,Low,Closed,Finance,Technician B
+17,Laptop battery drains fast,2026-08-12 10:46:00,2026-08-12 23:46:00,Hardware,Low,Closed,Finance,Technician B
+86,Software license expired,2026-09-10 13:26:00,2026-09-10 17:26:00,Software,High,Closed,HR,Technician A
+28,Cannot reach shared folder,2026-08-18 16:26:00,2026-08-19 00:26:00,Network,low,Closed,Warehouse,Technician B
+94,Forgot password,2026-09-15 08:28:00,2026-09-15 11:28:00,Account,Medium,Closed,Sales,Technician B
+65,Keyboard or mouse not working,2026-08-31 16:22:00,2026-09-01 05:22:00,Hardware,High,Closed,HR,Technician C
+52,IP address conflict,2026-08-27 08:26:00,2026-08-27 11:26:00,Network,Medium,Closed,Warehouse,Technician B
+102,IP address conflict,2026-09-16 11:57:00,2026-09-16 12:57:00,Network,High,Closed,Operations,Technician C
+61,Software license expired,2026-08-29 10:32:00,2026-08-29 18:32:00,Software,Low,Closed,Sales,Technician B
+42,Keyboard or mouse not working,2026-08-24 09:42:00,2026-08-24 13:42:00,Hardware,High,Closed,Finance,Technician A
+92,Connected but no internet,09/11/2026 04:19 PM,09/11/2026 07:19 PM,Network,High,Closed,Warehouse,Technician C
+46,Forgot password,2026-08-25 13:01:00,2026-08-25 15:01:00,Account,medium,Closed,Operations,Technician A
+87,Email not receiving messages,2026-09-10 14:54:00,2026-09-10 15:54:00,Account,Medium,Closed,Finance,Technician A
+35,New user account request,2026-08-20 12:18:00,2026-08-20 13:18:00,Account,Medium,Closed,Operations,Technician B
+89,Paper jam  ,2026-09-11 12:53:00,2026-09-11 14:53:00,Printer,Medium,Closed,Finance,Technician B
+109,Computer very slow,2026-09-21 11:20:00,2026-09-21 17:20:00,Hardware,medium,Closed,Sales,Technician B
+2,Cannot reach shared folder,2026-08-03 15:59:00,2026-08-03 23:59:00,Network,Low,Closed,Sales,Technician C
+100,Cannot install software  ,2026-09-15 16:43:00,2026-09-15 17:43:00,Software,medium,Closed,Operations,Technician A
+34,IP address conflict  ,2026-08-20 09:01:00,2026-08-20 16:01:00,Network,Medium,Closed,Operations,Technician B
+77,Connected but no internet,2026-09-08 12:02:00,2026-09-08 20:02:00,Network,Medium,Closed,Operations,Technician B
+78,Cannot reach shared folder  ,09/08/2026 01:41 PM,09/08/2026 06:41 PM,Network,Low,Closed,Warehouse,Technician A
+53,Software license expired,2026-08-27 14:08:00,2026-08-27 16:08:00,Software,Medium,Closed,HR,Technician A
+15,Forgot password,08/12/2026 10:00 AM,08/12/2026 11:00 AM,Account,High,Closed,HR,Technician C
+1,Account locked  ,08/03/2026 01:04 PM,08/03/2026 04:04 PM,Account,low,Closed,Warehouse,Technician A
+12,Cannot install software  ,2026-08-10 15:43:00,2026-08-10 23:43:00,Software,Medium,Closed,Sales,Technician A
+45,Slow network  ,2026-08-24 15:52:00,2026-08-24 16:52:00,Network,Low,Closed,Sales,Technician C
+96,Software license expired,2026-09-15 09:29:00,2026-09-15 12:29:00,Software,Medium,Closed,Operations,Technician B
+66,Cannot install software,2026-09-01 11:07:00,2026-09-01 16:07:00,Software,Low,Closed,Finance,Technician C
+79,Printer not printing,2026-09-09 10:29:00,2026-09-09 14:29:00,Printer,Low,Closed,Sales,Technician C
+108,Printer offline,2026-09-21 10:22:00,2026-09-21 14:22:00,Printer,High,Closed,Finance,Technician B
+20,Printer offline,2026-08-13 14:05:00,2026-08-13 18:05:00,Printer,Low,Closed,Operations,Technician A
+4,Monitor shows no display,2026-08-04 08:17:00,2026-08-04 09:17:00,Hardware,Medium,Closed,Sales,Technician B
+110,New user account request,2026-09-21 11:23:00,2026-09-21 13:23:00,Account,Low,Closed,HR,Technician B
+31,Computer will not turn on,2026-08-19 15:40:00,2026-08-19 16:40:00,Hardware,Medium,Closed,Sales,Technician C
+105,Windows update failed,2026-09-19 12:54:00,2026-09-19 13:54:00,Software,High,Closed,Operations,Technician A
+107,Software license expired,2026-09-21 09:24:00,2026-09-21 15:24:00,Software,Medium,Closed,HR,Technician C
+50,Cannot connect to Wi-Fi,08/26/2026 04:23 PM,08/27/2026 01:23 AM,Network,High,Closed,HR,Technician C
+30,Email client not opening,2026-08-19 14:42:00,2026-08-19 16:42:00,Software,Medium,Closed,HR,Technician C
+104,Computer will not turn on,2026-09-17 15:05:00,2026-09-18 04:05:00,Hardware,Low,Closed,HR,Technician B
+103,Cannot connect to Wi-Fi,2026-09-17 13:32:00,2026-09-17 16:32:00,Network,High,Closed,Warehouse,Technician A
+63,Laptop battery drains fast,2026-08-31 15:39:00,2026-08-31 22:39:00,Hardware,Low,Closed,Warehouse,Technician C
+23,Cannot reach shared folder  ,2026-08-17 14:40:00,2026-08-17 20:40:00,Network,Low,Closed,Warehouse,Technician A
+56,Laptop battery drains fast  ,2026-08-28 13:29:00,2026-08-29 02:29:00,Hardware,Low,Closed,Operations,Technician C
+21,Cannot reach shared folder,2026-08-13 14:56:00,2026-08-13 20:56:00,Network,Medium,Closed,Warehouse,Technician B
+67,Email client not opening  ,2026-09-02 12:28:00,2026-09-02 18:28:00,SOFTWARE,Medium,Closed,HR,Technician B
+36,Cannot install software,08/20/2026 04:07 PM,08/20/2026 05:07 PM,Software,Medium,Closed,Warehouse,Technician A
+57,Slow network,08/28/2026 03:55 PM,08/28/2026 07:55 PM,Network,Medium,Closed,Sales,Technician B
+62,Cannot reach shared folder,2026-08-31 11:10:00,2026-08-31 20:10:00,Network,Low,Closed,Warehouse,Technician B
+43,Cannot install software,08/24/2026 03:13 PM,08/24/2026 10:13 PM,Software,Medium,Closed,Finance,Technician A
+3,Windows update failed,2026-08-03 16:29:00,2026-08-03 17:29:00,Software,Medium,Closed,Sales,Technician C
+76,Cannot reach shared folder,2026-09-07 12:49:00,2026-09-07 17:49:00,Network,Medium,Closed,Operations,Technician B
+101,Cannot reach shared folder,2026-09-16 10:57:00,2026-09-16 18:57:00,Network,Low,Closed,Operations,Technician B
+10,Email not receiving messages,2026-08-10 11:00:00,2026-08-10 13:00:00,Account,high,Closed,Warehouse,Technician B
+22,Software license expired,08/17/2026 02:16 PM,08/17/2026 09:16 PM,Software,Low,Closed,Finance,Technician A
+49,Slow network,2026-08-25 16:48:00,2026-08-26 00:48:00,Network,Low,Closed,Sales,Technician B
+83,Forgot password,2026-09-10 09:16:00,2026-09-10 11:16:00,Account,Low,Closed,Sales,Technician C
+91,Computer very slow,2026-09-11 14:21:00,2026-09-12 02:21:00,hardware,low,Closed,Warehouse,Technician C
+33,Printer offline,2026-08-20 08:17:00,2026-08-20 10:17:00,Printer,Medium,Closed,Sales,Technician B
+84,Computer very slow,2026-09-10 09:20:00,2026-09-10 23:20:00,Hardware,Low,Closed,Finance,Technician A
+5,Connected but no internet,2026-08-04 10:20:00,2026-08-04 14:20:00,Network,Medium,Closed,Operations,Technician A
+68,Laptop battery drains fast,2026-09-03 11:21:00,2026-09-03 22:21:00,Hardware,High,Closed,Operations,Technician B
+37,Cannot connect to Wi-Fi,2026-08-21 12:47:00,2026-08-21 16:47:00,NETWORK,medium,Closed,Finance,Technician C
+58,Cannot connect to Wi-Fi,2026-08-28 16:37:00,2026-08-28 21:37:00,Network,Low,Closed,Operations,Technician A
+44,Windows update failed,2026-08-24 15:32:00,2026-08-24 17:32:00,Software,Low,Closed,Operations,Technician C
+115,Printer offline,2026-09-23 12:26:00,2026-09-23 16:26:00,Printer,Medium,Closed,Sales,Technician C
+85,Cannot connect to Wi-Fi,09/10/2026 10:06 AM,09/10/2026 03:06 PM,Network,Medium,Closed,Sales,Technician A
+11,Computer will not turn on,2026-08-10 14:16:00,2026-08-10 21:16:00,Hardware,Medium,Closed,Finance,Technician B
+97,Monitor shows no display,2026-09-15 11:53:00,2026-09-16 00:53:00,hardware,High,Closed,Sales,Technician C
+95,Cannot connect to Wi-Fi,2026-09-15 09:22:00,2026-09-15 10:22:00,Network,High,Closed,Sales,Technician C
+32,Computer will not turn on,2026-08-19 16:12:00,2026-08-20 02:12:00,Hardware,High,Closed,HR,Technician C
+39,Computer will not turn on,2026-08-23 12:25:00,2026-08-24 02:25:00,Hardware,High,Closed,HR,Technician B
+47,Computer will not turn on,2026-08-25 13:19:00,2026-08-26 00:19:00,Hardware,High,Closed,Operations,Technician B
+59,New user account request,2026-08-28 16:55:00,2026-08-28 19:55:00,Account,High,Closed,Operations,Technician B
+93,Connected but no internet,2026-09-12 13:44:00,2026-09-12 17:44:00,Network,Low,Closed,Sales,Technician C
+60,Computer very slow,2026-08-29 10:06:00,2026-08-29 19:06:00,Hardware,High,Closed,Operations,Technician C
+41,New user account request,2026-08-24 08:29:00,2026-08-24 10:29:00,Account,Low,Closed,Warehouse,Technician C
+53,Software license expired,2026-08-27 14:08:00,2026-08-27 16:08:00,Software,Medium,Closed,HR,Technician A
+69,Printer not printing,2026-09-03 12:49:00,2026-09-03 17:49:00,Printer,High,Closed,Sales,Technician B
+64,Cannot connect to Wi-Fi,08/31/2026 03:40 PM,08/31/2026 06:40 PM,Network,medium,Closed,Warehouse,Technician C
+27,Connected but no internet,2026-08-18 15:47:00,2026-08-18 17:47:00,Network,Medium,Closed,HR,Technician B
+80,Printer offline,2026-09-09 15:20:00,2026-09-09 19:20:00,Printer,Medium,Closed,Sales,Technician A
+113,Cannot reach shared folder,09/22/2026 02:22 PM,09/22/2026 04:22 PM,Network,High,Closed,Sales,Technician C
+119,Application keeps crashing,2026-09-26 11:38:00,2026-09-26 17:38:00,Software,Low,Closed,Finance,Technician A
+9,New user account request,2026-08-09 10:41:00,2026-08-09 12:41:00,Account,Medium,Closed,Operations,Technician B
+98,Email client not opening,2026-09-15 12:13:00,2026-09-15 13:13:00,Software,Medium,Closed,Operations,Technician C
+13,Paper jam,2026-08-11 08:22:00,2026-08-11 12:22:00,printer,Low,Closed,Warehouse,Technician C
+48,Application keeps crashing,2026-08-25 14:22:00,2026-08-25 18:22:00,Software,Medium,Closed,HR,Technician C
+25,Keyboard or mouse not working,2026-08-17 16:13:00,2026-08-17 17:13:00,Hardware,Medium,Closed,HR,Technician A
+82,Computer will not turn on,2026-09-10 09:04:00,2026-09-10 20:04:00,Hardware,medium,Closed,HR,Technician B
+99,Paper jam,09/15/2026 03:33 PM,09/15/2026 06:33 PM,Printer,Low,Closed,HR,Technician C
+111,Email not receiving messages  ,2026-09-22 09:04:00,2026-09-22 10:04:00,Account,Low,Closed,Warehouse,Technician B
+14,Laptop battery drains fast,2026-08-11 12:18:00,2026-08-11 14:18:00,Hardware,Low,Closed,Operations,Technician A
+24,Email client not opening,2026-08-17 15:37:00,2026-08-17 20:37:00,Software,Low,Closed,Sales,Technician C
+88,Computer will not turn on,2026-09-11 10:24:00,2026-09-11 18:24:00,Hardware,Low,Closed,Warehouse,Technician C
+120,Need access to shared drive,09/27/2026 09:35 AM,09/27/2026 10:35 AM,Account,Medium,Closed,HR,Technician C
+40,Computer will not turn on,2026-08-23 12:29:00,2026-08-23 20:29:00,Hardware,High,Closed,Warehouse,Technician B
+112,Printer offline,2026-09-22 09:54:00,2026-09-22 11:54:00,Printer,Low,Closed,HR,Technician B
+118,Connected but no internet,2026-09-26 09:56:00,2026-09-26 15:56:00,Network,high,Closed,Operations,Technician A
+70,Cannot reach shared folder,2026-09-04 14:02:00,2026-09-04 22:02:00,Network,Low,Closed,Sales,Technician B
+19,Slow network,2026-08-12 16:07:00,2026-08-12 17:07:00, Network ,medium,Closed,Sales,Technician B
+54,Cannot connect to Wi-Fi,2026-08-28 10:28:00,2026-08-28 11:28:00,Network,Low,Closed,Warehouse,Technician B
+38,Email not receiving messages,2026-08-21 14:41:00,2026-08-21 17:41:00,Account,Medium,Closed,Operations,Technician B
+18,Need access to shared drive,2026-08-12 15:35:00,2026-08-12 16:35:00,Account,Medium,Closed,HR,Technician C
+72,Windows update failed,2026-09-04 16:34:00,2026-09-04 22:34:00,Software,High,Closed,Finance,Technician B
+6,Monitor shows no display,2026-08-04 11:12:00,2026-08-04 23:12:00,Hardware,Low,Closed,Warehouse,Technician B
+117,Account locked,2026-09-25 12:53:00,2026-09-25 13:53:00,Account,Low,Closed,Operations,Technician A
+7,Need access to shared drive,2026-08-05 11:10:00,2026-08-05 13:10:00,Account,High,Closed,Warehouse,Technician B
+51,Cannot connect to Wi-Fi,2026-08-26 16:49:00,2026-08-27 01:49:00,Network,Low,Closed,Sales,Technician B
+114,Cannot connect to Wi-Fi,2026-09-23 08:28:00,2026-09-23 09:28:00,Network,Medium,Closed,Operations,Technician B
+74,IP address conflict,2026-09-07 11:19:00,2026-09-07 21:19:00,Network,Medium,Closed,Warehouse,Technician C
+15,Forgot password,08/12/2026 10:00 AM,08/12/2026 11:00 AM,Account,High,Closed,HR,Technician C
+75,Computer very slow,2026-09-07 12:43:00,2026-09-07 21:43:00,Hardware,Low,Closed,Finance,Technician C
+116,Slow network,2026-09-23 16:01:00,2026-09-24 02:01:00,Network,Low,Closed,Sales,Technician A
+81,Connected but no internet,2026-09-09 15:25:00,2026-09-09 23:25:00,Network,Low,Closed,HR,Technician A
+29,Computer very slow,08/19/2026 12:55 PM,08/19/2026 01:55 PM,Hardware,Medium,Closed,Operations,Technician C
+16,Connected but no internet,2026-08-12 10:41:00,2026-08-12 12:41:00,Network,Low,Closed,Operations,Technician B
+73,Email client not opening,2026-09-07 09:42:00,2026-09-07 15:42:00,Software,low,Closed,Warehouse,Technician B
+106,Forgot password,09/21/2026 08:39 AM,09/21/2026 09:39 AM,Account,Low,Closed,Warehouse,Technician C
+8,Windows update failed,08/06/2026 08:06 AM,08/06/2026 01:06 PM,Software,Low,Closed,Finance,Technician A
+55,Email client not opening,2026-08-28 10:31:00,2026-08-28 11:31:00,SOFTWARE,medium,Closed,Sales,Technician B
+71,Printer offline,09/04/2026 02:14 PM,09/04/2026 05:14 PM,Printer,High,Closed,Sales,Technician A
