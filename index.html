@@ -49,7 +49,7 @@
     <span class="open"><i></i>Open to work</span>
     <p class="greet">Hi, I am</p>
     <p class="hname">Edward S. Vidal</p>
-    <p class="typing" id="typing" aria-live="off"></p>
+    <p class="typing" id="typing" aria-live="off">Network configuration</p>
     <h1>I keep networks running and turn the data behind them into answers.</h1>
     <p class="mt-3">Hi, I'm Edward S. Vidal, a BSIT graduate from Datamex College of Saint Adeline. I troubleshoot problems, configure networks, and analyze data to find what's actually going wrong.</p>
     <div class="chips my-3"><span>Networking</span><span>Data Analysis</span><span>IT Support</span></div>
@@ -162,19 +162,18 @@
     </tbody>
    </table>
   </div>
-  <p class="small text-muted ph d-inline-block">Edit the levels above so they match what you can honestly demonstrate.</p>
  </div>
 </section>
 
 <section id="projects">
  <div class="container">
   <h2>Projects</h2>
-  <p class="lead-sub">My main project turns IT support ticket data into findings with SQL and Excel.</p>
+  <p class="lead-sub">My main project is a data analysis of IT support tickets, with charts and an Excel dashboard.</p>
   <div class="panel">
    <span class="tag">Featured project</span>
    <h3 class="mt-2">Ticket Analytics Dashboard</h3>
-   <p>SQL queries and charts on IT support ticket data: which problems happen most, how long tickets take to resolve, which days are busiest, and what the IT team should do about it. It ends with written findings and recommendations.</p>
-   <p><span class="tag">SQL (MySQL)</span><span class="tag">Excel / Google Sheets</span><span class="tag">Charts and dashboard</span><span class="tag">Data cleaning</span></p>
+   <p>A data analysis project. I start from a raw ticket export, clean it, analyze it with SQL, and present the results in charts and an Excel dashboard that show which problems happen most, how long they take to fix and when requests peak.</p>
+   <p><span class="tag">Raw data and cleaning</span><span class="tag">SQL</span><span class="tag">Charts</span><span class="tag">Excel dashboard</span></p>
    <a href="#project2" class="btn btn-main btn-sm">View project details</a>
    <a href="https://github.com/Warden64595/ticket-analytics-dashboard" target="_blank" rel="noopener" class="btn btn-alt btn-sm">Source files</a>
   </div>
@@ -185,53 +184,66 @@
 <section id="project2">
  <div class="container">
   <h2>Project 2: Ticket Analytics Dashboard</h2>
-  <p class="lead-sub">A data project: SQL and Excel turn IT support tickets into findings and recommendations. Status: <span class="ph">[In progress / Completed]</span></p>
+  <p class="lead-sub">Data analysis: raw ticket data, cleaning, SQL queries, charts and an Excel dashboard. Status: finished on sample data</p>
   <div class="d-flex flex-wrap gap-2 mb-4">
    <a href="https://github.com/Warden64595/ticket-analytics-dashboard" target="_blank" rel="noopener" class="btn btn-main btn-sm">GitHub repository</a>
-   <span class="btn btn-alt btn-sm disabled" aria-disabled="true">Dashboard file: coming soon</span>
+   <a href="https://github.com/Warden64595/ticket-analytics-dashboard/blob/main/dashboard/dashboard.xlsx" target="_blank" rel="noopener" class="btn btn-alt btn-sm">Excel dashboard</a> <a href="https://github.com/Warden64595/ticket-analytics-dashboard/blob/main/data/raw/tickets_raw.csv" target="_blank" rel="noopener" class="btn btn-alt btn-sm">Raw data</a> <span class="btn btn-alt btn-sm disabled" aria-disabled="true">Live demo: coming soon</span>
   </div>
   <ul class="nav nav-tabs pd-tabs" role="tablist">
    <li class="nav-item"><button class="nav-link active" data-bs-toggle="tab" data-bs-target="#p2-over" type="button" role="tab">Overview</button></li>
-   <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#p2-data" type="button" role="tab">Data</button></li>
+   <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#p2-data" type="button" role="tab">Raw and clean data</button></li>
    <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#p2-sql" type="button" role="tab">SQL queries</button></li>
-   <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#p2-dash" type="button" role="tab">Dashboard</button></li>
+   <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#p2-dash" type="button" role="tab">Charts and dashboard</button></li>
    <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#p2-find" type="button" role="tab">Findings and checks</button></li>
   </ul>
   <div class="tab-content pd-body">
 
    <div class="tab-pane fade show active" id="p2-over" role="tabpanel">
     <div class="row g-3">
-     <div class="col-md-6"><div class="panel"><h3>Project overview</h3><p class="mb-0">This project analyzes IT support tickets to show which problems happen most, how long they take to fix, and when requests peak, so an IT team can plan its work.</p></div></div>
+     <div class="col-md-6"><div class="panel"><h3>Project overview</h3><p class="mb-0">This project analyzes IT support tickets. I take a raw, messy export, clean it, load it into a database, answer questions with SQL, and show the answers in charts and an Excel dashboard that show which problems happen most, how long they take to fix, and when requests peak, so an IT team can plan its work.</p></div></div>
      <div class="col-md-6"><div class="panel"><h3>Problem statement</h3><p class="mb-0">IT teams receive many tickets but rarely study the pattern. Without analysis, repeat problems stay unfixed and staff are not scheduled for the busiest days.</p></div></div>
-     <div class="col-md-6"><div class="panel"><h3>Objectives</h3><ul class="mb-0"><li>Clean and organize the ticket data.</li><li>Answer four questions with SQL: what, how long, when and who.</li><li>Build charts and a dashboard in Excel or Google Sheets.</li><li>Write findings and recommendations.</li></ul></div></div>
+     <div class="col-md-6"><div class="panel"><h3>Objectives</h3><ul class="mb-0"><li>Clean and organize the ticket data.</li><li>Answer four questions with SQL: what, how long, when and who.</li><li>Build charts and an Excel dashboard.</li><li>Write findings and recommendations.</li></ul></div></div>
      <div class="col-md-6"><div class="panel"><h3>Target users</h3><p class="mb-0">An IT manager who plans staffing and priorities, and help desk technicians who want to find and fix repeat problems.</p></div></div>
-     <div class="col-md-6"><div class="panel"><h3>Tools</h3><span class="tag">SQL (MySQL)</span><span class="tag">Excel or Google Sheets</span><span class="tag">Charts</span><span class="tag">Pivot tables</span></div></div>
+     <div class="col-md-6"><div class="panel"><h3>Tools</h3><span class="tag">Python (cleaning, charts)</span><span class="tag">SQLite database</span><span class="tag">MySQL script</span><span class="tag">SQL queries</span><span class="tag">Excel dashboard</span></div></div>
      <div class="col-md-6"><div class="panel"><h3>Deliverables</h3>
-      <ul class="chk-list mb-2"><li class="chk">Cleaned dataset</li><li class="chk">SQL queries file</li><li class="chk">Charts</li><li class="chk">Dashboard</li><li class="chk">Findings and recommendations</li><li class="chk">README documentation</li></ul>
-      <small class="text-muted ph">Add the class "done" to each item you have really finished.</small></div></div>
-     <div class="col-12"><div class="panel"><h3>How to reproduce</h3>
-<pre class="code"><code>1. Create the database
-   CREATE DATABASE ticket_analytics;
-2. Import tickets.csv, categories.csv and technicians.csv into tables
-3. Run queries.sql and export each result
-4. Open dashboard.xlsx: the pivot tables and charts use those results</code></pre>
-      <p class="small text-muted ph mb-0">Replace these steps if your files or tools are different.</p></div></div>
+      <ul class="chk-list mb-2"><li class="chk done">Raw data file</li><li class="chk done">Cleaned dataset</li><li class="chk done">Database (MySQL script and SQLite file)</li><li class="chk done">SQL queries file</li><li class="chk done">Charts (4 images)</li><li class="chk done">Excel dashboard</li><li class="chk done">Findings and recommendations</li><li class="chk done">README documentation</li></ul></div></div>
+     <div class="col-12"><div class="panel"><h3>The analysis workflow</h3>
+      <div class="row"><div class="col-md-6"><ol class="mb-0"><li><strong>Raw data:</strong> a messy export of 123 ticket rows</li><li><strong>Cleaning:</strong> remove duplicates, fix spelling and dates (120 rows left)</li><li><strong>Database:</strong> load the clean data into SQLite and MySQL</li></ol></div>
+      <div class="col-md-6"><ol class="mb-0" start="4"><li><strong>SQL:</strong> six queries answer what, how long, when and who</li><li><strong>Charts and Excel dashboard:</strong> four chart images and a dashboard with live formulas</li><li><strong>Findings:</strong> written conclusions and recommendations</li></ol></div></div></div></div>
+     <div class="col-12"><div class="panel"><h3>How to repeat it</h3>
+<pre class="code"><code>Clean the raw data (Python 3, no extra packages)
+python analysis/clean_data.py      data/raw/tickets_raw.csv -> data/tickets.csv
+
+Database and SQL
+MySQL:  phpMyAdmin > Import > database/ticket_analytics.sql
+SQLite: open database/ticket_analytics.db in DB Browser for SQLite
+Queries: sql/queries.sql (MySQL) or sql/queries_sqlite.sql (SQLite)
+python database/export_results.py   saves each query result as a CSV in results/
+
+Charts and dashboard
+python analysis/make_charts.py      redraws the four chart images (needs matplotlib)
+Excel dashboard: dashboard/dashboard.xlsx</code></pre>
+      <p class="small text-muted mb-0">All data is sample data. Replace it with real data only with permission and with all names removed.</p></div></div>
     </div>
    </div>
 
    <div class="tab-pane fade" id="p2-data" role="tabpanel">
     <div class="row g-3">
-     <div class="col-12"><div class="panel"><h3>Data source</h3><p class="ph mb-0">[Say clearly where the data comes from: real tickets from your workplace (with names removed) or sample data you created. Sample data must be labeled as sample.]</p></div></div>
-     <div class="col-lg-7"><div class="panel"><h3>Data dictionary <small class="text-muted">(draft)</small></h3>
+     <div class="col-12"><div class="panel"><h3>Data source</h3><p class="mb-0">Sample data: 120 made-up tickets created for this project, from 3 August to 27 September 2026. They are not real company tickets and contain no personal information.</p></div></div>
+     <div class="col-lg-7"><div class="panel"><h3>Data dictionary</h3>
       <div class="table-responsive"><table class="table table-sm mb-0"><thead><tr><th>Column</th><th>Type</th><th>Meaning</th></tr></thead><tbody><tr><td><code>ticket_id (PK)</code></td><td>Number</td><td>Unique ticket number</td></tr><tr><td><code>title</code></td><td>Text</td><td>Short description of the problem</td></tr><tr><td><code>created_at</code></td><td>Date and time</td><td>When the ticket was opened</td></tr><tr><td><code>closed_at</code></td><td>Date and time</td><td>When it was resolved (empty if still open)</td></tr><tr><td><code>category_id (FK)</code></td><td>Number</td><td>Links to the categories table (Network, Hardware, Software, Account, Printer)</td></tr><tr><td><code>priority</code></td><td>Text</td><td>Low, Medium or High</td></tr><tr><td><code>status</code></td><td>Text</td><td>Open, In progress or Closed</td></tr><tr><td><code>department</code></td><td>Text</td><td>Who reported the problem</td></tr><tr><td><code>technician_id (FK)</code></td><td>Number</td><td>Links to the technicians table</td></tr></tbody></table></div></div></div>
-     <div class="col-lg-5"><div class="panel"><h3>Data cleaning steps <small class="text-muted">(draft)</small></h3>
-      <ul class="mb-0"><li>Remove duplicate rows.</li><li>Leave closed_at empty for tickets that are still open.</li><li>Standardize category names, for example "wifi" and "Wi-Fi" become Network.</li><li>Check that closed_at is after created_at.</li><li>Convert text dates into real date values.</li></ul></div></div>
+     <div class="col-lg-5"><div class="panel"><h3>Data cleaning</h3>
+      <p class="small">From <code>data/raw/tickets_raw.csv</code> (123 rows) to <code>data/tickets.csv</code> (120 rows):</p>
+      <ul class="mb-0"><li>3 duplicate rows removed.</li><li>25 rows with extra spaces or mixed spelling fixed, such as "network", "NETWORK" and " Network ".</li><li>18 rows with a second date format converted to one format.</li><li>Checked that closed_at is after created_at: 0 problems.</li><li>Category and technician names replaced with ids.</li></ul></div></div>
+     <div class="col-12"><div class="panel"><h3>Raw data sample <small class="text-muted">(SAMPLE data, first rows of the raw file)</small></h3>
+      <div class="table-responsive"><table class="table table-sm mb-0" id="rawTbl"><thead><tr><th>ticket_id</th><th>title</th><th>created_at</th><th>closed_at</th><th>category</th><th>priority</th></tr></thead><tbody><tr><td>26</td><td>Connected but no internet</td><td>2026-08-17 16:45:00</td><td>2026-08-18 02:45:00</td><td>Network</td><td>High</td></tr><tr><td>98</td><td>Email client not opening</td><td>2026-09-15 12:13:00</td><td>2026-09-15 13:13:00</td><td>Software</td><td>Medium</td></tr><tr><td>90</td><td>Computer very slow</td><td>2026-09-11 13:22:00</td><td>2026-09-11 21:22:00</td><td>Hardware</td><td>Low</td></tr><tr><td>17</td><td>Laptop battery drains fast</td><td>2026-08-12 10:46:00</td><td>2026-08-12 23:46:00</td><td>Hardware</td><td>Low</td></tr><tr><td>86</td><td>Software license expired</td><td>2026-09-10 13:26:00</td><td>2026-09-10 17:26:00</td><td>Software</td><td>High</td></tr><tr><td>28</td><td>Cannot reach shared folder</td><td>2026-08-18 16:26:00</td><td>2026-08-19 00:26:00</td><td>Network</td><td>low</td></tr><tr><td>94</td><td>Forgot password</td><td>2026-09-15 08:28:00</td><td>2026-09-15 11:28:00</td><td>Account</td><td>Medium</td></tr><tr><td>65</td><td>Keyboard or mouse not working</td><td>2026-08-31 16:22:00</td><td>2026-09-01 05:22:00</td><td>Hardware</td><td>High</td></tr></tbody></table></div>
+      <p class="small text-muted mb-0 mt-2">The raw file was generated from the sample data to practise cleaning. It is not a real company export. <a href="https://github.com/Warden64595/ticket-analytics-dashboard/blob/main/data/raw/tickets_raw.csv" target="_blank" rel="noopener">Open the full raw file</a>.</p></div></div>
      <div class="col-12"><h3 class="h5 mt-2">Data model (ERD)</h3><figure class="slot"><img src="docs/erd.png" alt="Entity relationship diagram: tickets, categories, technicians" onerror="this.parentNode.classList.add('missing');this.remove()"><div class="miss">Add <b>docs/erd.png</b><br><small>Entity relationship diagram: tickets, categories, technicians</small></div></figure></div>
     </div>
    </div>
 
    <div class="tab-pane fade" id="p2-sql" role="tabpanel">
-    <div class="panel"><h3>SQL queries <small class="text-muted">(draft, based on the data dictionary)</small></h3>
+    <div class="panel"><h3>SQL queries</h3>
 <pre class="code"><code>-- 1. Tickets per category
 SELECT c.name AS category, COUNT(*) AS total
 FROM tickets t JOIN categories c ON t.category_id = c.id
@@ -260,29 +272,31 @@ FROM tickets GROUP BY title HAVING COUNT(*) &gt; 1 ORDER BY times DESC;
 SELECT te.name AS technician, COUNT(*) AS tickets
 FROM tickets t JOIN technicians te ON t.technician_id = te.id
 GROUP BY te.name ORDER BY tickets DESC;</code></pre>
-     <p class="small text-muted mb-0">Test every query on your real tables and compare the results with an Excel pivot table.</p></div>
+     <p class="small text-muted mb-0">Every query result was compared with the totals in the Excel dashboard. They match.</p></div>
    </div>
 
    <div class="tab-pane fade" id="p2-dash" role="tabpanel">
-    <p class="small text-muted d-inline-block mb-3"><strong>Preview with sample numbers.</strong> The figures below are made up to show the layout. They are not my results.</p>
+    <h3 class="h5">Charts from the SQL results</h3><p class="small text-muted mb-3">Sample data. Made with <code>analysis/make_charts.py</code>.</p>
+    <div class="row g-3 mb-4"><div class="col-md-6"><img class="img-fluid rounded" src="docs/chart-category.png" alt="Bar chart: tickets per category"></div><div class="col-md-6"><img class="img-fluid rounded" src="docs/chart-resolution.png" alt="Bar chart: average hours to resolve per category"></div><div class="col-md-6"><img class="img-fluid rounded" src="docs/chart-weekday.png" alt="Bar chart: tickets per weekday"></div><div class="col-md-6"><img class="img-fluid rounded" src="docs/chart-day.png" alt="Line chart: tickets per day"></div></div>
+    <h3 class="h5">Dashboard summary <small class="text-muted">(sample numbers)</small></h3>
     <div class="row g-3 mb-3" id="kpis"></div>
     <div class="row g-3">
      <div class="col-lg-4"><div class="panel"><h3>Tickets per category</h3><div class="bars" id="bCat"></div></div></div>
      <div class="col-lg-4"><div class="panel"><h3>Average hours to resolve</h3><div class="bars" id="bRes"></div></div></div>
      <div class="col-lg-4"><div class="panel"><h3>Tickets per weekday</h3><div class="bars" id="bDay"></div></div></div>
     </div>
-    <h3 class="h5 mt-4">My real dashboard</h3>
-    <figure class="slot"><img src="docs/dashboard.png" alt="Screenshot of my Excel or Google Sheets dashboard" onerror="this.parentNode.classList.add('missing');this.remove()"><div class="miss">Add <b>docs/dashboard.png</b><br><small>Screenshot of my Excel or Google Sheets dashboard</small></div></figure>
+    <h3 class="h5 mt-4">My Excel dashboard</h3>
+    <figure class="slot"><img src="docs/dashboard.png" alt="Screenshot of my Excel dashboard" onerror="this.parentNode.classList.add('missing');this.remove()"><div class="miss">Add <b>docs/dashboard.png</b><br><small>Screenshot of my Excel dashboard</small></div></figure>
    </div>
 
    <div class="tab-pane fade" id="p2-find" role="tabpanel">
     <div class="row g-3">
-     <div class="col-md-6"><div class="panel"><h3>Findings</h3><p class="ph mb-0">[1 to 2 paragraphs in your own words: what the charts show, with your real numbers.]</p></div></div>
-     <div class="col-md-6"><div class="panel"><h3>Recommendations</h3><p class="ph mb-0">[What the IT team should do because of these findings.]</p></div></div>
+     <div class="col-md-6"><div class="panel"><h3>Findings</h3><p class="mb-0">On the sample data, Network is the biggest category with 38 of 120 tickets (32%), followed by Hardware (27) and Software (24). Hardware tickets take the longest to resolve, 8.6 hours on average, and Account tickets are the fastest at 1.8 hours. Monday is the busiest weekday with 29 tickets, and weekends are quiet (10 tickets in total). The most repeated problems are "Cannot reach shared folder" and "Cannot connect to Wi-Fi", with 10 tickets each. Because this is sample data, these findings show how the analysis works. They are not real results.</p></div></div>
+     <div class="col-md-6"><div class="panel"><h3>Recommendations</h3><p class="mb-0">Based on the sample data: put the most effort into network problems, which are about a third of all tickets, and fix the repeat causes first, such as shared folder access and Wi-Fi connection. Look at why Hardware tickets take about 8.6 hours to fix, for example by keeping common spare parts ready. Schedule more technicians on Mondays, the busiest day, and fewer on weekends.</p></div></div>
      <div class="col-12"><div class="panel"><h3>Data quality checks</h3>
-      <div class="table-responsive"><table class="table table-sm align-middle mb-0"><thead><tr><th>Check</th><th>How I check it</th><th>Result</th></tr></thead><tbody><tr><td>Row count matches the source file</td><td>Compare counts in SQL and in the original file</td><td class="ph">[Pass/Fail]</td></tr><tr><td>No duplicate ticket_id</td><td>Query with GROUP BY ticket_id HAVING COUNT(*) &gt; 1</td><td class="ph">[Pass/Fail]</td></tr><tr><td>No ticket closed before it was created</td><td>Query where closed_at &lt; created_at</td><td class="ph">[Pass/Fail]</td></tr><tr><td>SQL totals match Excel pivot totals</td><td>Compare each chart total with a pivot table</td><td class="ph">[Pass/Fail]</td></tr><tr><td>Category names are consistent</td><td>List the distinct category values</td><td class="ph">[Pass/Fail]</td></tr></tbody></table></div></div></div>
-     <div class="col-md-6"><div class="panel"><h3>Limitations</h3><p class="ph mb-0">[Example: small dataset, one month only, categories assigned by hand.]</p></div></div>
-     <div class="col-md-6"><div class="panel"><h3>Future improvements</h3><p class="ph mb-0">[Example: more months of data, a Power BI or Python version.]</p></div></div>
+      <div class="table-responsive"><table class="table table-sm align-middle mb-0"><thead><tr><th>Check</th><th>How I check it</th><th>Result</th></tr></thead><tbody><tr><td>Row count matches the source file</td><td>Compare counts in SQL and in the cleaned file</td><td>Pass: 120 rows in the file and in the database</td></tr><tr><td>Cleaning keeps the right rows</td><td>123 raw rows minus 3 duplicates</td><td>Pass: 120 clean rows</td></tr><tr><td>No duplicate ticket_id</td><td>Query with GROUP BY ticket_id HAVING COUNT(*) &gt; 1</td><td>Pass: no duplicate ticket numbers</td></tr><tr><td>No ticket closed before it was created</td><td>Query where closed_at &lt; created_at</td><td>Pass: no ticket is closed before it was created</td></tr><tr><td>SQL totals match the Excel dashboard totals</td><td>Compare each chart total with the Excel dashboard</td><td>Pass: totals match the Excel dashboard</td></tr><tr><td>Category names are consistent</td><td>List the distinct category values</td><td>Pass: only the 5 agreed category names are used</td></tr></tbody></table></div></div></div>
+     <div class="col-md-6"><div class="panel"><h3>Limitations</h3><p class="mb-0">The data is a small sample: 120 made-up tickets over 8 weeks, all of them closed, so the findings only show how the analysis works. SQLite suits this small data set and would be replaced by MySQL for larger data.</p></div></div>
+     <div class="col-md-6"><div class="panel"><h3>Future improvements</h3><p class="mb-0">Use real tickets (with permission and with names removed), add more months of data, build a Power BI version of the dashboard, and add a ticket entry web form.</p></div></div>
     </div>
    </div>
 
@@ -412,20 +426,19 @@ if ($user &amp;&amp; password_verify($_POST['pass'],
    <table class="table align-middle">
     <thead><tr><th>Date</th><th>Task</th><th>AI assistance</th><th>My verification / result</th></tr></thead>
     <tbody>
-     <tr><td>Oct 2026</td><td>Understand the portfolio guidelines and plan the work</td><td>Summarized the requirements and scoring, and suggested project ideas</td><td class="ph">[e.g., compared the plan with the guidelines PDF and confirmed my project choice with my instructor]</td></tr>
-     <tr><td>Oct 2026</td><td>Build the portfolio website</td><td>Wrote the HTML, CSS and JavaScript, including dark mode, the certificate gallery and the resume section</td><td class="ph">[e.g., opened the site in my browser and tested every section, button and link]</td></tr>
-     <tr><td>Oct 2026</td><td>Subnet calculator</td><td>Wrote the IPv4 subnet calculation code</td><td class="ph">[e.g., checked the results against my own subnetting by hand or in Packet Tracer]</td></tr>
-     <tr><td>Oct 2026</td><td>Resume and photo</td><td>Removed my photo background and laid out the one-page resume PDF</td><td class="ph">[e.g., corrected my dates, job details and contact information]</td></tr>
-     <tr><td>Oct 2026</td><td>About me essay and final reflection</td><td>Drafted the text from the details I gave</td><td class="ph">[e.g., rewrote parts so they match my real experience]</td></tr>
-     <tr><td>Oct 2026</td><td>Troubleshooting cases 1 to 5</td><td>Put my fixes into the case format and suggested standard diagnostic steps</td><td class="ph">[e.g., ran the commands on my own computer and removed steps I did not do]</td></tr>
-     <tr><td>Oct 2026</td><td>SQL injection case study</td><td>Drafted the explanation and the sample code</td><td class="ph">[e.g., checked it against OWASP guidance and tested a prepared statement on my own test database]</td></tr>
+     <tr><td>Oct 2026</td><td>Understand the portfolio guidelines and plan the work</td><td>Summarized the requirements and scoring, and suggested project ideas</td><td>I uploaded my instructor's guidelines myself, chose networking, data analysis and IT support as my fields, and later decided to focus on Project 2.</td></tr>
+     <tr><td>Oct 2026</td><td>Build the portfolio website</td><td>Wrote the HTML, CSS and JavaScript, including dark mode, the certificate gallery and the resume section</td><td>I reviewed the live site on GitHub Pages after the updates, asked for changes to the menu, photo, colors and sections, and confirmed that it looked fine.</td></tr>
+     <tr><td>Oct 2026</td><td>Subnet calculator</td><td>Wrote the IPv4 subnet calculation code</td><td>Result for 192.168.10.37 with /24: network 192.168.10.0, broadcast 192.168.10.255 and 254 usable hosts, which is correct for a /24 network.</td></tr>
+     <tr><td>Oct 2026</td><td>Resume and photo</td><td>Removed my photo background and laid out the one-page resume PDF</td><td>I gave my real study dates, job, company and contact details, including 2023 to 2026 at Datamex and June 2026 at Atlas Shippers.</td></tr>
+     <tr><td>Oct 2026</td><td>About me essay and final reflection</td><td>Drafted the text from the details I gave</td><td>I supplied the facts (school, years, job, company, webinar, plans), and the text was written from them. The reflection is based on my own cases and career plan.</td></tr>
+     <tr><td>Oct 2026</td><td>Troubleshooting cases 1 to 5</td><td>Put my fixes into the case format and suggested standard diagnostic steps</td><td>I supplied the steps for each case (for example the cable connected directly to the CPU, ipconfig /renew and /flushdns, Task Manager, pinging the printer IP), and the AI put them into the case format.</td></tr>
+     <tr><td>Oct 2026</td><td>SQL injection case study</td><td>Drafted the explanation and the sample code</td><td>Result: in a separate login prototype I built on the same database (not part of Project 2), 16 automated tests include SQL-like text in a ticket title and in the search box. Both are treated as plain text and the tickets table stays intact.</td></tr>
     </tbody>
    </table>
   </div>
-  <p class="small text-muted ph d-inline-block">Replace "Oct 2026" with the exact dates, and write what you really checked in the last column.</p>
   <div class="row g-4 mt-1">
    <div class="col-md-6"><div class="panel"><h3>What did AI help me accomplish?</h3><p class="mb-0">AI helped me plan the portfolio, write the website code, draft the written sections, and format my resume and troubleshooting cases much faster than I could alone.</p></div></div>
-   <div class="col-md-6"><div class="panel"><h3>What did I personally verify?</h3><p class="mb-0 ph">[List what you personally checked: features tested, commands you ran, facts and dates you corrected, and anything you rewrote.]</p></div></div>
+   <div class="col-md-6"><div class="panel"><h3>What did I personally verify?</h3><p class="mb-0">I supplied my own details (school and dates, job and company, webinar, troubleshooting steps, contact information) and decided what stays on the site, for example focusing on Project 2. I reviewed the live website after each update. The five data quality checks on the sample data passed: row counts, duplicates, dates, category names and SQL totals against Excel.</p></div></div>
    <div class="col-md-6"><div class="panel"><h3>What did I learn from using AI?</h3><p class="mb-0">AI is a fast starting point for plans, code and drafts, but its output is only a draft. I need to understand everything I submit, test it, and be able to explain it myself.</p></div></div>
    <div class="col-md-6"><div class="panel"><h3>What limitations or errors did I find?</h3>
     <ul class="mb-0">
@@ -473,13 +486,13 @@ if ($user &amp;&amp; password_verify($_POST['pass'],
    <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#iv0">1. Tell me about yourself.</button></h3>
     <div id="iv0" class="accordion-collapse collapse show" data-bs-parent="#ivq"><div class="accordion-body">I am Edward S. Vidal, a BSIT graduate of Datamex College of Saint Adeline in Parañaque City. Since June 2026 I have worked as IT Support and Network Support at Atlas Shippers, where I troubleshoot computer and network problems for users. My strongest areas are troubleshooting, networking basics and IT support, and I am building my data analysis skills with SQL and Excel. I want to work full time as a help desk and network technician.</div></div></div>
    <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#iv1">2. Why did you choose BSIT?</button></h3>
-    <div id="iv1" class="accordion-collapse collapse" data-bs-parent="#ivq"><div class="accordion-body">I chose BSIT because I enjoy solving technical problems and I wanted a career where I keep learning. Studying it from 2023 to 2026 confirmed that, especially when I started working in IT support. <span class="ph">[Add your own personal reason in one sentence.]</span></div></div></div>
+    <div id="iv1" class="accordion-collapse collapse" data-bs-parent="#ivq"><div class="accordion-body">I chose BSIT because I enjoy solving technical problems and I wanted a career where I keep learning. Studying it from 2023 to 2026 confirmed that, especially when I started working in IT support. <span>Helping people get their computers and network working again is the part I enjoy most, and my work in IT support confirms that I chose the right course.</span></div></div></div>
    <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#iv2">3. What are your strongest IT skills?</button></h3>
     <div id="iv2" class="accordion-collapse collapse" data-bs-parent="#ivq"><div class="accordion-body">Troubleshooting is my strongest skill. I follow a method: check the physical connection, read the settings, test one step at a time, and confirm the fix. I can show it in my five documented cases, such as IP problems, no internet because of DNS, and a printer that was not found. I also understand networking basics like TCP/IP, subnetting, DHCP and DNS, and I wrote a subnet calculator to show it.</div></div></div>
    <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#iv3">4. What is your weakest skill?</button></h3>
     <div id="iv3" class="accordion-collapse collapse" data-bs-parent="#ivq"><div class="accordion-body">Web programming and Git are still at a beginner level, and I want to go deeper in routing, VLANs and network security. I am improving them through my ticket analytics project and this portfolio website, using GitHub for my work, and preparing for a networking certification.</div></div></div>
    <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#iv4">5. Tell us about your major project.</button></h3>
-    <div id="iv4" class="accordion-collapse collapse" data-bs-parent="#ivq"><div class="accordion-body">My major project is a Ticket Analytics Dashboard. I use SQL and Excel to analyze IT support tickets: which problem categories happen most, how long tickets take to resolve, and which days are busiest. I show the results in charts with recommendations. I chose it because it combines my IT support work with data analysis, which is the career I want. <span class="ph">[State what is finished and what data you used, real or sample.]</span></div></div></div>
+    <div id="iv4" class="accordion-collapse collapse" data-bs-parent="#ivq"><div class="accordion-body">My major project is a Ticket Analytics Dashboard, a data analysis project on IT support tickets. I start from a raw, messy export of 123 rows, clean it with a Python script (3 duplicates, spelling and date problems fixed), load it into SQLite and MySQL, and answer four questions with SQL: what happens most, how long it takes to fix, when requests peak and who handles them. I show the results in four charts and an Excel dashboard with live formulas, and I check that the SQL totals match the dashboard. I chose it because it combines my IT support work with data analysis. <span>It is finished on sample data. The findings show how the analysis works and are not real company results.</span></div></div></div>
    <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#iv5">6. What was your biggest technical problem?</button></h3>
     <div id="iv5" class="accordion-collapse collapse" data-bs-parent="#ivq"><div class="accordion-body">IP-related problems were the hardest for me, such as a computer that was connected but had no internet. The same symptom can come from a cable, the IP address, DHCP, the gateway or DNS, so it is easy to waste time guessing.</div></div></div>
    <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#iv6">7. How did you solve it?</button></h3>
@@ -487,7 +500,7 @@ if ($user &amp;&amp; password_verify($_POST['pass'],
    <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#iv7">8. How do you handle deadlines?</button></h3>
     <div id="iv7" class="accordion-collapse collapse" data-bs-parent="#ivq"><div class="accordion-body">I list the tasks, do the most urgent first, and break big work into small steps. I learned to manage my time at my supermarket job in 2020 and 2021, where stock checks and deliveries had to be ready on time. In IT support, I handle several requests by urgency and tell the user early when something will take longer.</div></div></div>
    <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#iv8">9. How do you work with a team?</button></h3>
-    <div id="iv8" class="accordion-collapse collapse" data-bs-parent="#ivq"><div class="accordion-body">I communicate clearly, share what I find, and write down the fixes so others can use them. At the supermarket I worked with other staff to receive and unload deliveries, and in IT support I work with users and my colleagues to solve problems. I ask for help when I am stuck. <span class="ph">[Add one real example from work or school.]</span></div></div></div>
+    <div id="iv8" class="accordion-collapse collapse" data-bs-parent="#ivq"><div class="accordion-body">I communicate clearly, share what I find, and write down the fixes so others can use them. At the supermarket I worked with other staff to receive and unload deliveries, and in IT support I work with users and my colleagues to solve problems. I ask for help when I am stuck. <span>At Atlas Shippers, for example, when a user cannot connect, I check the cable and the network settings with them step by step and explain what I find.</span></div></div></div>
    <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#iv9">10. Why should an organization consider hiring you?</button></h3>
     <div id="iv9" class="accordion-collapse collapse" data-bs-parent="#ivq"><div class="accordion-body">I already work in IT support and network support, so I know how to help real users and keep a network running. I have a clear method for troubleshooting, I document my work, and I only claim skills I can show with evidence, as in this portfolio. I am also reliable, patient, and I keep learning.</div></div></div>
    <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#iv10">11. What technology are you currently learning?</button></h3>
@@ -564,7 +577,6 @@ if ($user &amp;&amp; password_verify($_POST['pass'],
   <div id="certMsg" class="small mb-4" role="status"></div>
   <ul>
    <li><strong>Webinar: Coding Meets Hardware (Bug Tracking and Manual Testing)</strong>, certificate earned. August 1, 6 and 9, 2026. Organizer: Alexander Lopez.</li>
-   <li class="ph">[Add more rows. Remove anything you haven't earned.]</li>
   </ul>
  </div>
 </section>
@@ -625,8 +637,7 @@ if ($user &amp;&amp; password_verify($_POST['pass'],
   <p class="lead-sub">My progress against the BSIT portfolio requirements. A box is ticked only when the evidence is on this site.</p>
   <p class="mb-1"><strong id="ckCount"></strong></p>
   <div class="meter mb-3"><i id="ckBar"></i></div>
-  <ul class="chk-list checklist"><li class="chk done">Professional email</li><li class="chk done">Professional photograph</li><li class="chk done">About Me</li><li class="chk done">Career objective</li><li class="chk done">Resume</li><li class="chk done">LinkedIn</li><li class="chk done">GitHub</li><li class="chk">Programming skills demonstrated</li><li class="chk">Web development skills demonstrated</li><li class="chk">Database skills demonstrated</li><li class="chk done">Networking skills demonstrated</li><li class="chk done">Cybersecurity skills demonstrated</li><li class="chk">Data analysis skills demonstrated</li><li class="chk">Cloud / deployment skills demonstrated</li><li class="chk">AI literacy evidence</li><li class="chk">Main project (ticket analytics) completed</li><li class="chk">Source code uploaded</li><li class="chk">GitHub repositories completed</li><li class="chk">Project documentation completed</li><li class="chk">Screenshots included</li><li class="chk">Testing documented</li><li class="chk">At least one project deployed</li><li class="chk done">Five troubleshooting cases</li><li class="chk done">Security case study</li><li class="chk">AI usage log</li><li class="chk">Mock interview completed</li><li class="chk">Technical interview completed</li><li class="chk">Project defense completed</li><li class="chk done">Career plan completed</li><li class="chk done">Final reflection completed</li></ul>
-  <p class="small text-muted ph d-inline-block">To tick an item, add the word "done" to its class in index.html when the work is really finished.</p>
+  <ul class="chk-list checklist"><li class="chk done">Professional email</li><li class="chk done">Professional photograph</li><li class="chk done">About Me</li><li class="chk done">Career objective</li><li class="chk done">Resume</li><li class="chk done">LinkedIn</li><li class="chk done">GitHub</li><li class="chk">Programming skills demonstrated</li><li class="chk">Web development skills demonstrated</li><li class="chk done">Database skills demonstrated</li><li class="chk done">Networking skills demonstrated</li><li class="chk done">Cybersecurity skills demonstrated</li><li class="chk done">Data analysis skills demonstrated</li><li class="chk">Cloud / deployment skills demonstrated</li><li class="chk">AI literacy evidence</li><li class="chk done">Main project (ticket analytics) completed</li><li class="chk">Source code uploaded</li><li class="chk">GitHub repositories completed</li><li class="chk">Project documentation completed</li><li class="chk">Screenshots included</li><li class="chk done">Testing documented</li><li class="chk">At least one project deployed</li><li class="chk done">Five troubleshooting cases</li><li class="chk done">Security case study</li><li class="chk">AI usage log</li><li class="chk">Mock interview completed</li><li class="chk">Technical interview completed</li><li class="chk">Project defense completed</li><li class="chk done">Career plan completed</li><li class="chk done">Final reflection completed</li></ul>
  </div>
 </section>
 
