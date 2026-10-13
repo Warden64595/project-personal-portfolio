@@ -365,3 +365,14 @@ h2.rv:not(.in)::after{width:0}
 }
 @media(min-width:1400px){.navbar .nav-link{font-size:.84rem;padding-left:.38rem;padding-right:.38rem}}
 @media(min-width:1500px){.navbar>.container{max-width:1500px}.navbar .nav-link{font-size:.9rem;padding-left:.5rem;padding-right:.5rem}.nav-actions .hire{padding:.5rem 1.1rem}}
+
+/* video play card (loads the YouTube player only after a click) */
+.yt-play{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;width:100%;height:100%;border:0;border-radius:16px;cursor:pointer;color:#fff;background-color:#161616;background-size:cover;background-position:center;overflow:hidden}
+.yt-play::before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(242,98,0,.55),rgba(13,13,13,.75))}
+.yt-icon,.yt-text{position:relative;z-index:1}
+.yt-icon{width:84px;height:84px;border-radius:50%;background:#f26200;box-shadow:0 10px 30px rgba(0,0,0,.45);transition:transform .2s}
+.yt-icon::after{content:"";position:absolute;left:50%;top:50%;transform:translate(-35%,-50%);border-style:solid;border-width:16px 0 16px 26px;border-color:transparent transparent transparent #fff}
+.yt-play:hover .yt-icon{transform:scale(1.08)}
+.yt-text{font-weight:700;letter-spacing:.02em}
+.yt-box iframe{width:100%;height:100%;border:0;border-radius:16px}
+.yt-box{position:relative;width:100%;aspect-ratio:16/9;background:#111;border-radius:16px;overflow:hidden}

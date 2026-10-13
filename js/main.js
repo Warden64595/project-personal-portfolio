@@ -24,10 +24,10 @@ var roles = ['Network configuration', 'SQL and data analysis', 'Technical troubl
 var ty = document.getElementById('typing'), ri = 0, ci = 0, del = false;
 function type(){
   var w = roles[ri];
-  ty.textContent = w.slice(0, ci);
   if(!del && ci === w.length){ del = true; return setTimeout(type, 1400); }
-  if(del && ci === 0){ del = false; ri = (ri + 1) % roles.length; }
   ci += del ? -1 : 1;
+  if(del && ci < 1){ del = false; ri = (ri + 1) % roles.length; w = roles[ri]; ci = 1; }  // never show an empty title
+  ty.textContent = w.slice(0, ci);
   setTimeout(type, del ? 35 : 75);
 }
 if(reduce){ ty.textContent = roles.join(' · '); } else { type(); }
@@ -479,3 +479,4 @@ document.getElementById('send').addEventListener('click', function(){
   location.href = 'mailto:edwardsajovidal@gmail.com?subject=' +
     encodeURIComponent('Portfolio message from ' + n) + '&body=' + encodeURIComponent(m);
 });
+
